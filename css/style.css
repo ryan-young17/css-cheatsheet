@@ -68,6 +68,7 @@ article {
 
 article p {
     padding: 8px;
+    font-size: 12px;
 }
 
 article code,
@@ -86,11 +87,6 @@ article pre {
 }
 
 
-
-footer {
-    
-}
-
 code {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -103,6 +99,6 @@ code {
 
 @media screen and (max-width: 768px) {
     article {
-        width: calc(100% - 32px);
+        width: calc(50% - 32px);
     }
 }
